@@ -1,0 +1,35 @@
+2021-09-23 03:03:42,472 INFO [root] [login_param.py(test23_login_password_wrong:303)]-login response{'status': 200, 'description': '登录成功'}
+2021-09-23 03:07:23,695 INFO [root] [__init__.py(<module>:4)]-info
+2021-09-23 03:07:23,695 ERROR [root] [__init__.py(<module>:5)]-error
+2021-09-23 03:07:24,018 INFO [root] [login_param.py(test01_get_img_code_random_float:38)]-r = 0.11567397611645491 response = <Response [200]>
+2021-09-23 03:07:24,104 INFO [root] [login_param.py(test01_get_img_code_random_float:38)]-r = 4281037 response = <Response [200]>
+2021-09-23 03:07:24,196 INFO [root] [login_param.py(test01_get_img_code_random_float:38)]-r =  response = <Response [404]>
+2021-09-23 03:07:24,284 INFO [root] [login_param.py(test01_get_img_code_random_float:38)]-r = mlafdnkh response = <Response [400]>
+2021-09-23 03:07:24,481 INFO [root] [login_param.py(test04_get_img_code_random_char:63)]-enkbdjic
+2021-09-23 03:07:24,733 INFO [root] [login_param.py(test05_get_sms_code_succese:76)]-get sms code response={'status': 200, 'description': '短信发送成功'}
+2021-09-23 03:07:24,998 INFO [root] [login_param.py(test07_get_sms_code_null_img_code:98)]-get sms code response={'status': 100, 'description': '图片验证码错误'}
+2021-09-23 03:07:25,132 INFO [root] [login_param.py(test08_get_sms_code_null_phone:109)]-get sms code response={'status': 100}
+2021-09-23 03:07:25,233 INFO [root] [login_param.py(test09_get_sms_code_no_img_code:117)]-get sms code response={'status': 100, 'description': '图片验证码错误'}
+2021-09-23 03:07:25,506 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-23 03:07:25,754 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-23 03:07:25,966 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:26,258 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-23 03:07:26,438 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 100, 'description': '验证码错误!'}
+2021-09-23 03:07:26,628 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 100, 'description': '验证码错误'}
+2021-09-23 03:07:26,885 INFO [root] [login_param.py(test10_register_success_param_must:132)]-register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-09-23 03:07:27,314 INFO [root] [login_param.py(test12_register_phone_is_exist:159)]-register response{'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:27,523 INFO [root] [login_param.py(test13_register_is_null:173)]-register response{'status': 100}
+2021-09-23 03:07:27,731 INFO [root] [login_param.py(test14_register_no_password:188)]-register response{'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:27,925 INFO [root] [login_param.py(test15_register_code_is_wrong:202)]-register response{'status': 100, 'description': '验证码错误!'}
+2021-09-23 03:07:28,127 INFO [root] [login_param.py(test16_register_code_is_null:216)]-register response{'status': 100, 'description': '验证码不能为空!'}
+2021-09-23 03:07:28,315 INFO [root] [login_param.py(test16_register_sms_code_is_wrong:230)]-register response{'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:28,511 INFO [root] [login_param.py(test17_register_sms_code_is_null:244)]-register response{'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:28,714 INFO [root] [login_param.py(test18_register_no_dy_server:258)]-register response{'status': 100, 'description': '手机已存在!'}
+2021-09-23 03:07:28,839 INFO [root] [login_param.py(test19_login_success:264)]-login response{'status': 200, 'description': '登录成功'}
+2021-09-23 03:07:28,938 INFO [root] [login_param.py(test20_login_no_phone:271)]-login response{'status': 100, 'description': '用户不存在'}
+2021-09-23 03:07:29,017 INFO [root] [login_param.py(test21_login_phone_is_null:277)]-login response{'status': 100, 'description': '用户名不能为空'}
+2021-09-23 03:07:29,099 INFO [root] [login_param.py(test22_login_password_id_null:283)]-login response{'status': 100, 'description': '密码不能为空'}
+2021-09-23 03:07:29,208 INFO [root] [login_param.py(test23_login_password_wrong:291)]-login response{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2021-09-23 03:07:29,256 INFO [root] [login_param.py(test23_login_password_wrong:295)]-login response{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2021-09-23 03:07:29,314 INFO [root] [login_param.py(test23_login_password_wrong:299)]-login response{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-09-23 03:08:29,422 INFO [root] [login_param.py(test23_login_password_wrong:303)]-login response{'status': 200, 'description': '登录成功'}
